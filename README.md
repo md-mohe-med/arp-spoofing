@@ -20,9 +20,11 @@ This tool is for security education and lab testing only. Do not use on networks
 git clone https://github.com/md-mohe-med/arp-spoofing.git
 cd arp-spoofing/EH/arpspoof
 ```
+
+#For Linux
 # install scapy if needed
 ```bash
-pip install scapy
+pip3 install scapy
 ```
 
 # run as root
