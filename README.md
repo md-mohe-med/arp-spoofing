@@ -39,7 +39,10 @@ Target MAC
 Router MAC
 continuous packets sent counter
 
-
+# make sure to run this so it will be redirect the Target request
+```bash
+echo 1 > /proc/sys/net/ipv4/ip_forward
+```
 # Then Open your Terminal and Run this 
 ```bash
 sudo tcpdump -i wlan0 -n host <target_ip_adress> and port <port>
