@@ -21,7 +21,7 @@ git clone https://github.com/md-mohe-med/arp-spoofing.git
 cd arp-spoofing/EH/arpspoof
 ```
 
-#For Linux
+# For Linux
 # install scapy if needed
 ```bash
 pip3 install scapy
