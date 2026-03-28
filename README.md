@@ -40,7 +40,7 @@ Router MAC
 continuous packets sent counter
 
 
-Then Open Ur terminal and Run this 
+# Then Open your Terminal and Run this 
 ```bash
 sudo tcpdump -i wlan0 -n host <target_ip_adress> and port <port>
 ```
