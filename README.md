@@ -46,7 +46,8 @@ sudo tcpdump -i wlan0 -n host <target_ip_adress> and port <port>
 ```
 
 
-u can see the list of of all available Ip by just 
+# Show your Computer’s ARP Table
 ```bash
-show your computer’s ARP table
+arp -a
+ip neigh
 ```
