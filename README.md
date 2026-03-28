@@ -49,5 +49,6 @@ sudo tcpdump -i wlan0 -n host <target_ip_adress> and port <port>
 # Show your Computer’s ARP Table
 ```bash
 arp -a
+# OR
 ip neigh
 ```
